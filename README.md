@@ -2,7 +2,7 @@
 Nowcoder Community development project
 
 牛客讨论区项目总结
-本项目是基于牛客高级课的关于牛客讨论区的项目，项目的技术栈以及框架都是比较新的，是一个基于SpringBoot的Java Web项目，框架使用了SSM，数据库采用了Mysql和Redis，使用Kafka作为消息队列，以及Elastic Search作为搜索引擎。
+本项目是基于牛客高级课的关于牛客讨论区的项目，项目的技术栈以及框架都是比较新的，是一个基于SpringBoot的Java Web项目，框架使用了SSM，数据库采用了Mysql和Redis，使用Kafka作为消息队列，以及Elastic Search作为搜索引擎。   
 1.核心功能：  
     - 发帖、评论、私信、转发；  
     - 点赞、关注、通知、搜索；  
