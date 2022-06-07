@@ -267,3 +267,7 @@ misfire：本来应该被执行但实际没有被执行的任务调度
 概念：Caffeine 是一个基于Java 8的高性能本地缓存框架
 初始化cache：缓存保存的对象，使用Caffeine.newBuilder()创建，创建时设置缓存大小，过期时间，缓存未命中时的加载方式。
 为什么只缓存热度帖子？答：因为不会经常变。
+
+参考文献 `
+https://blog.csdn.net/mosthandsomeboy/article/details/110070906
+https://blog.csdn.net/weixin_48610702/article/details/115859656
