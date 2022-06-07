@@ -243,7 +243,7 @@ Kafka消息队列
 搜索：定义SearchQuery，确定搜素内容，排序方式，高亮等。接着使用elasticTemplate.queryForPage方法，需要重写mapResults函数，得到高亮数据。
 
 项目中使用到了SpringSecurity在哪些地方？
-重构了用户权限控制（之前用的拦截器）
+重构了用户权限控制（之前用的拦截器） 
 
 怎样统计网站UA和DAU
 使用Redis的高级数据结构：
