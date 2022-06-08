@@ -21,6 +21,9 @@ Nowcoder Community development project
     - 利用HyperLogLog、Bitmap分别实现了UV、DAU的统计功能，100万用户数据只需*M内存空间；  
     - 利用Quartz实现了任务调度功能，并实现了定时计算帖子分数、定时清理垃圾文件等功能；  
     - 利用Actuator对应用的Bean、缓存、日志、路径等多个维度进行了监控，并通过自定义的端点对数据库连接进行了监控。  
+    TPS一个表达系统处理能力的性能指标，每秒处理的消息数（Transaction Per Second）   
+    QPS一般指每秒查询率。 每秒查询率（QPS，Queries-per-second）是对一个特定的查询服务器在规定时间内所处理流量多少的衡量标准。    
+    
 ## 项目准备
 准备工作就是一些工作环境的配置，IDE使用IntellijIDEA，具体的框架的版本与配置，以及mysql，redis，kafka，es的安装与配置，视频里都会有详细的介绍。下面介绍一些关于此项目的主要模块后端代码的实现部分。
     
